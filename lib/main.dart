@@ -15,6 +15,9 @@ class MyApp extends StatelessWidget {
       title: 'PopUp Menu', 
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.grey),
+      appBarTheme: const AppBarTheme(
+        backgroundColor: Colors.amberAccent,
+      ),  
         useMaterial3: true,
       ),
      home: const HomeScreen(),
